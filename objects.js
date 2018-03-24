@@ -1,10 +1,10 @@
 var playlist = {
-  MyRiot: 'Sen',
-  Roman: 'Something'
+  'Marine Boudeau': 'Something',
+  'Someone else': 'Something else'
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist.artistName = songTitle
+  playlist[artistName] = songTitle
   return playlist
 }
 
