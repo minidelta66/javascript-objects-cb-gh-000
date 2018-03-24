@@ -1,5 +1,5 @@
 var playlist = {
- MyRiot: 'Sen',
+
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
